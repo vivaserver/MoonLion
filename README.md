@@ -1,5 +1,7 @@
 # MoonLion theme for elementaryOS
 
+![MoonLion](screenshot-clean.png)
+
 This theme just mixes and packs two great GNOME themes from [kxmylo][kxmy] for [elementaryOS][luna] 0.2 "Luna":
 
 - [Lion][lion]
@@ -14,7 +16,7 @@ You will need to install the `elementary-tweaks` package from the [elementary-up
 
 ## More Credits
 
-* Faenza Icon Theme for elementaryOS 
+* Faenza Icon Theme: 
   (`elementary-elfaenza-icons` package on [elementary-update PPA][eppa] repository)
 * [OS X Mountain Lion Wallpaper][wall] mod by Dee-A
 
