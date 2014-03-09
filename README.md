@@ -36,15 +36,15 @@ First add the PPA repository and then install the proper package:
 
 ## More Credits
 
-* Faenza Icon Theme: 
+* Faenza Icon Theme:  
   (`elementary-elfaenza-icons` package on [elementary-update PPA][eppa] repository)
 * [OS X Mountain Lion Wallpaper][wall] mod by Dee-A
 
 ## Contributing
 
 - This is my first theme at all, so please feel free to fork and contribute fixes and improvements.
-- You can also help me keep this repository up-to-date with the kxmylo packages as they are released on deviantart.
-- Or may be pack this theme into a `.deb` package for even an easier installation?
+- You can also help me keep this repository up-to-date with the kxmylo theme packages as they are released on deviantart.
+- Or may be help me pack this theme into a `.deb` file for an easier installation?
 
 ## License
 
