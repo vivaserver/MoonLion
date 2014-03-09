@@ -36,9 +36,12 @@ First add the PPA repository and then install the proper package:
 
 ## More Credits
 
-* Faenza Icon Theme  
-  `elementary-elfaenza-icons` package, install like elementary-tweaks
 * [OS X Mountain Lion Wallpaper][wall] mod by Dee-A
+* elfaenza-icons  
+  `elementary-elfaenza-icons` package, install like elementary-tweaks
+* ieOS7-icons  
+  `ieos7-icons` package, from [ppa:elementary-br/projects][elbr] PPA.  
+  (just for places/folders icons, as elfaenza uses stock eOS icons for those)
 
 ## Contributing
 
@@ -48,7 +51,7 @@ First add the PPA repository and then install the proper package:
 
 ## Copyleft
 
-(c)2014 Cristian R. Arroyo <cristian.arroyo@vivaserver.com>
+(c)2014 Cristian R. Arroyo
 
 ## License
 
@@ -59,4 +62,5 @@ See LICENCE.txt
 [lion]: http://kxmylo.deviantart.com/art/Lion-an-elementary-OS-theme-384663827
 [lgtk]: http://kxmylo.deviantart.com/art/Lion-GTK-3-8-386686956
 [eppa]: https://launchpad.net/~versable/+archive/elementary-update
+[elbr]: https://launchpad.net/~elementary-br/+archive/projects
 [wall]: http://dee-a.deviantart.com/art/OS-X-Mountain-Lion-Wallpaper-361526011
