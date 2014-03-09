@@ -1,0 +1,101 @@
+/***********
+ * infobar *
+ ***********/
+ 
+.info,
+.question,
+.warning,
+.error {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    -unico-inner-stroke-width: 1px 0 1px 0;
+
+    -unico-inner-stroke-gradient: -gtk-gradient (linear,
+                    left top, left bottom,
+                    from (alpha (#fff, 0.30)),
+                    to (alpha (#fff, 0.06)));
+}
+
+.info {
+    background-image: -gtk-gradient (linear,
+                    left top,
+                    left bottom,
+                    from (#fafafa),
+                    to (#f6f6f6));
+
+    -unico-border-gradient: -gtk-gradient (linear,
+                    left top, left bottom,
+                    from (#c3c3c3),
+                    to (#c3c3c3));
+}
+
+.info GtkLabel {
+    color: @text_color;
+}
+
+.question {
+    background-image: -gtk-gradient (linear,
+                    left top,
+                    left bottom,
+                    from (#55c1ec),
+                    to (#44a2e9));
+
+    -unico-border-gradient: -gtk-gradient (linear,
+                    left top, left bottom,
+                    from (#357fb8),
+                    to (#357fb8));
+}
+
+.question GtkLabel {
+    color: #004166;
+}
+
+.warning {
+    background-image: -gtk-gradient (linear,
+                    left top,
+                    left bottom,
+                    from (#fdde76),
+                    to (#fbd058));
+
+    -unico-border-gradient: -gtk-gradient (linear,
+                    left top, left bottom,
+                    from (#c09e42),
+                    to (#c09e42));
+}
+
+.warning GtkLabel {
+    color: #664e00;
+}
+
+.error {
+    background-image: -gtk-gradient (linear,
+                    left top,
+                    left bottom,
+                    from (#e35d4f),
+                    to (#d33f3d));
+
+    -unico-border-gradient: -gtk-gradient (linear,
+                    left top, left bottom,
+                    from (#a2302e),
+                    to (#a2302e));
+}
+
+.error GtkLabel {
+    color: #660000;
+}
+
+GtkInfoBar GtkLabel {
+    text-shadow: 0 1 alpha (#fff, 0.3);
+    icon-shadow: 0 1 alpha (#fff, 0.3);
+}
+
+GtkInfoBar .entry,
+GtkInfoBar .menu {
+    color: @text_color;
+}
+
+
+GtkInfoBar GtkLabel:insensitive {
+    color: @insensitive_color;
+
+}

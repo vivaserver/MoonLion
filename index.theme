@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MoonLion
+Comment=elementaryOS desktop theme
+Encoding=UTF-8
+
+Name[en_US]=MoonLion
+
+[X-GNOME-Metatheme]
+GtkTheme=elementary
+MetacityTheme=elementary
+IconTheme=elFaenza
+CursorTheme=DMZ-Black
+ButtonLayout=close,minimize:maximize

@@ -1,0 +1,58 @@
+/************
+ * Switches *
+ ***********/
+
+GtkSwitch {
+    -GtkSwitch-slider-width: 22;
+    -GtkSwitch-slider-height: 22;
+    padding: 1px 3px 1px 1px;
+}
+
+GtkSwitch:active {
+    padding: 1px 1px 1px 3px;
+}
+
+GtkSwitch.trough,
+GtkSwitch.trough:backdrop {
+    border: none;
+    border-image: none;
+    background: none;
+    color: transparent;
+    font: open sans bold 1;
+    background-image: url("assets/switch-off.svg");
+    background-size: 48px 24px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-shadow: none;
+}
+
+GtkSwitch.trough:active {
+    background-image: url("assets/switch-on.svg");
+}
+
+GtkSwitch.trough:insensitive {
+    background-image: url("assets/switch-off-disabled.svg");
+}
+
+GtkSwitch.trough:active:insensitive {
+    background-image: url("assets/switch-on-disabled.svg");
+}
+
+GtkSwitch.slider {
+    border: none;
+    background-image: url("assets/switch-slider.svg");
+    background-size: 22px 22px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: @transparent;
+}
+
+GtkSwitch.slider:focus {
+    background-image: url("assets/switch-slider-focus.svg");
+
+}
+
+GtkSwitch.slider:insensitive {
+    background-image: none;
+    background-color: @transparent;
+}

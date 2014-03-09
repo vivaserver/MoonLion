@@ -1,0 +1,10 @@
+/**********
+ * Birdie *
+ *********/
+
+BirdieWidgetsTweetList * {
+    background-image: none;
+    background-color: @transparent;
+    -unico-inner-stroke-style: none;
+    -unico-outer-stroke-style: none;
+}
