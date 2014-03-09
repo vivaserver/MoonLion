@@ -36,8 +36,8 @@ First add the PPA repository and then install the proper package:
 
 ## More Credits
 
-* Faenza Icon Theme:  
-  (`elementary-elfaenza-icons` package on [elementary-update PPA][eppa] repository)
+* Faenza Icon Theme  
+  `elementary-elfaenza-icons` package, install like elementary-update
 * [OS X Mountain Lion Wallpaper][wall] mod by Dee-A
 
 ## Contributing
