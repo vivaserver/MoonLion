@@ -9,7 +9,7 @@ This theme just mixes and packs two great GNOME themes from [kxmylo][kxmy] for [
 - [Lion][lion]
 - [Lion GTK 3.8][lgtk]
 
-Additionally, annoying errors messages and syntax warnings were fixed from some GTK-3.0 CSS files.
+Additionally, annoying errors messages and syntax warnings were fixed from some CSS files (GTK-3.0).
 
 ## Installation
 
@@ -17,6 +17,7 @@ Just clone this repository into your `~/.themes/` directory (create it if it doe
 
     $ cd
     $ mkdir .themes
+    $ cd .themes
     $ git clone https://github.com/vivaserver/MoonLion.git
 
 Select "MoonLion" for the **Window Decoration Theme** and **Interface Theme** options of the "Appearance" settings.
