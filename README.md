@@ -2,6 +2,8 @@
 
 ![MoonLion](screenshot-clean.png)
 
+![MoonLion](screenshot-dirty.png)
+
 This theme just mixes and packs two great GNOME themes from [kxmylo][kxmy] for [elementaryOS][luna] 0.2 "Luna":
 
 - [Lion][lion]
