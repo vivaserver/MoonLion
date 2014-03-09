@@ -9,7 +9,7 @@ This theme just mixes and packs two great GNOME themes from [kxmylo][kxmy] for [
 - [Lion][lion]
 - [Lion GTK 3.8][lgtk]
 
-Additionally, annoying errors messages and syntax warnings were fixed from some CSS files (GTK-3.0).
+Additionally, annoying error messages and syntax warnings were fixed from some CSS files (GTK-3.0).
 
 ## Installation
 
@@ -24,7 +24,15 @@ Select "MoonLion" for the **Window Decoration Theme** and **Interface Theme** op
 
 ![Tweaks](elementary-tweaks.png)
 
-You will need to install the `elementary-tweaks` package from the [elementary-update PPA][eppa] to enable the "Tweaks" option in your System Settings application.
+You will need to install the `elementary-tweaks` package from the [elementary-update PPA][eppa] to enable the "Tweaks" option in your System Settings application (see next section)
+
+### elementary-tweaks installation
+
+First add the PPA repository and then install the proper package:
+
+    $ sudo apt-add-repository ppa:versable/elementary-update
+    $ sudo apt-get update 
+    $ sudo apt-get install elementary-tweaks
 
 ## More Credits
 
