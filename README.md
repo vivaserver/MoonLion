@@ -20,6 +20,8 @@ Just clone this repository into your `~/.themes/` directory (create it if it doe
     $ cd .themes
     $ git clone https://github.com/vivaserver/MoonLion.git
 
+If you want to make theme available to all users, clone this repository into the `/usr/share/themes` directory instead. Note that you will need root permissions to do that.
+
 Select "MoonLion" for the **Window Decoration Theme** and **Interface Theme** options of the "Appearance" settings.
 
 ![Tweaks](elementary-tweaks.png)
